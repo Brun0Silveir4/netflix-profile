@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #141414;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-family: Merriweather Sans;
+}
+
+.main-title {
+  font-size: 3.5vw;
+  margin: 33.768;
+  cursor: default;
+}
+
+.profile {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 21.6px 0;
+}
+
+.item {
+  margin-top: 10px;
+  width: 200px;
+  height: 280px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  cursor: pointer;
+  color: gray;
+}
+
+.item:hover {
+  color: white;
+}
+
+.profileimg {
+  width: 100%;
+  border-radius: 4px;
+  height: 200px;
+}
+
+.profileimg:hover {
+  border: 3px solid white;
+}
+
+.adicionar {
+  padding: 40px;
+}
+
+.adicionar:hover {
+  background-color: rgb(214, 214, 214);
+}
+
+.title-profile {
+  font-size: 1.3vw;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.adicionarBtn:hover {
+  border: 2px solid white !important;
+  background-color: rgb(212, 212, 212);
+}
+
+.gerenciarbtn {
+  background-color: transparent;
+  border: 1px solid grey;
+  color: grey;
+  cursor: pointer;
+  display: block;
+  font-size: 1.2vw;
+  letter-spacing: 2px;
+  margin: 34.56px 0 17.28px;
+  padding: 0.5em 1.5em;
+}
+
+.gerenciarbtn:hover {
+  color: white;
+  border-color: white;
+}
